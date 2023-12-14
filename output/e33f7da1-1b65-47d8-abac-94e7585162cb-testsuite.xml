@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701898341254' stop='1701898353972'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1701898343807' status='passed' stop='1701898348395'>
+            <name>Login with sucess</name>
+            <title>Login with sucess</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701898344945' status='passed' stop='1701898346507'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='dd364a1b-03ac-4583-b269-292240a833e1-attachment.png' type='image/png' size='47565'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898346507' status='passed' stop='1701898347064'>
+                    <name>I set cookie []</name>
+                    <title>I set cookie []</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I set cookie []' source='96a05a58-35d8-44fc-b72f-72137386c5b0-attachment.png' type='image/png' size='409915'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898347064' status='failed' stop='1701898347076'>
+                    <name>I see "JoaoSilva@teste.com"</name>
+                    <title>I see "JoaoSilva@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898347078' status='passed' stop='1701898347127'>
+                    <name>I wait for element ".fa-user"</name>
+                    <title>I wait for element ".fa-user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898347127' status='passed' stop='1701898347656'>
+                    <name>I click ".fa-user"</name>
+                    <title>I click ".fa-user"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "JoaoSilva@teste.com"' source='9bfa0df9-6114-4138-aa25-b154bd62adf9-attachment.png' type='image/png' size='474765'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898347656' status='passed' stop='1701898347662'>
+                    <name>I wait for element "#user", 10</name>
+                    <title>I wait for element "#user", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898347662' status='passed' stop='1701898348015'>
+                    <name>I fill field "#user", "JoaoSilva@teste.com"</name>
+                    <title>I fill field "#user", "JoaoSilva@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898348015' status='passed' stop='1701898348021'>
+                    <name>I wait for element "#password", 10</name>
+                    <title>I wait for element "#password", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898348021' status='passed' stop='1701898348215'>
+                    <name>I fill field "#password", *****</name>
+                    <title>I fill field "#password", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898348216' status='passed' stop='1701898348381'>
+                    <name>I click "#btnLogin"</name>
+                    <title>I click "#btnLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898348381' status='passed' stop='1701898348393'>
+                    <name>I grab cookie </name>
+                    <title>I grab cookie </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701898348437' status='failed' stop='1701898353794'>
+            <name>Create a New User</name>
+            <title>Create a New User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701898348788' status='failed' stop='1701898353794'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701898348788' status='failed' stop='1701898353792'>
+                            <name>I wait for element ".fa-lock"</name>
+                            <title>I wait for element ".fa-lock"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='84def854-f80c-4166-9aad-c99343687fc2-attachment.png' type='image/png' size='11762'/>
+            </attachments>
+            <failure>
+                <message>element (.fa-lock) still not present on page after 5 sec
+                page.waitForSelector: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.fa-lock')
+                ============================================================</message>
+                <stack-trace>Error: element (.fa-lock) still not present on page after 5 sec
+                page.waitForSelector: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.fa-lock')
+                ============================================================
+                    at /Users/stefanini/Documents/projetos/Estudos/udemy-codeceptjs-web/node_modules/codeceptjs/lib/helper/Playwright.js:2230:13</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,223 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701898648364' stop='1701898659779'>
+    <name>Create User:</name>
+    <title>Create User:</title>
+    <test-cases>
+        <test-case start='1701898651130' status='passed' stop='1701898656294'>
+            <name>Login with sucess</name>
+            <title>Login with sucess</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701898652158' status='passed' stop='1701898653757'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='17e1489f-a212-41ab-9959-559b04237c83-attachment.png' type='image/png' size='47565'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898653758' status='passed' stop='1701898654334'>
+                    <name>I set cookie []</name>
+                    <title>I set cookie []</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I set cookie []' source='f1cbdfea-7a5e-4fea-aebf-6ccecb091803-attachment.png' type='image/png' size='409341'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898654334' status='passed' stop='1701898654768'>
+                    <name>I am on page "error"</name>
+                    <title>I am on page "error"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "error"' source='e2a44fc4-c7b2-4fe4-b294-12549dbc9a4e-attachment.png' type='image/png' size='47565'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898654768' status='failed' stop='1701898654775'>
+                    <name>I see "JoaoSilva@teste.com"</name>
+                    <title>I see "JoaoSilva@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898654777' status='passed' stop='1701898654958'>
+                    <name>I am on page "error"</name>
+                    <title>I am on page "error"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898654958' status='passed' stop='1701898655125'>
+                    <name>I wait for element ".fa-user"</name>
+                    <title>I wait for element ".fa-user"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "JoaoSilva@teste.com"' source='2ba2f93b-d799-4bbb-9fba-7538147bce32-attachment.png' type='image/png' size='47565'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1701898655125' status='passed' stop='1701898655302'>
+                    <name>I click ".fa-user"</name>
+                    <title>I click ".fa-user"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898655303' status='passed' stop='1701898655496'>
+                    <name>I wait for element "#user", 10</name>
+                    <title>I wait for element "#user", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898655496' status='passed' stop='1701898655904'>
+                    <name>I fill field "#user", "JoaoSilva@teste.com"</name>
+                    <title>I fill field "#user", "JoaoSilva@teste.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898655904' status='passed' stop='1701898655915'>
+                    <name>I wait for element "#password", 10</name>
+                    <title>I wait for element "#password", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898655915' status='passed' stop='1701898656124'>
+                    <name>I fill field "#password", *****</name>
+                    <title>I fill field "#password", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898656124' status='passed' stop='1701898656289'>
+                    <name>I click "#btnLogin"</name>
+                    <title>I click "#btnLogin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898656289' status='passed' stop='1701898656291'>
+                    <name>I grab cookie </name>
+                    <title>I grab cookie </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701898656331' status='passed' stop='1701898659748'>
+            <name>Create a New User</name>
+            <title>Create a New User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701898656494' status='passed' stop='1701898657715'>
+                    <name>I am on page "error"</name>
+                    <title>I am on page "error"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701898657716' status='passed' stop='1701898658048'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701898657717' status='passed' stop='1701898657907'>
+                            <name>I wait for element ".fa-lock"</name>
+                            <title>I wait for element ".fa-lock"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898657908' status='passed' stop='1701898658048'>
+                            <name>I click ".fa-lock"</name>
+                            <title>I click ".fa-lock"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701898658048' status='passed' stop='1701898659329'>
+                    <name>create_user_page: fillFieldsCreateUser "Trevor Borer", "Marlon.Collier@gmail.com", *****</name>
+                    <title>create_user_page: fillFieldsCreateUser "Trevor Borer", "Marlon.Collier@gmail.com", *****</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701898658048' status='passed' stop='1701898658230'>
+                            <name>I wait for element "#user", "Trevor Borer"</name>
+                            <title>I wait for element "#user", "Trevor Borer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898658231' status='passed' stop='1701898658237'>
+                            <name>I see "Cadastro de usuário"</name>
+                            <title>I see "Cadastro de usuário"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898658237' status='passed' stop='1701898658493'>
+                            <name>I fill field "#user", "Trevor Borer"</name>
+                            <title>I fill field "#user", "Trevor Borer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898658494' status='passed' stop='1701898658639'>
+                            <name>I scroll to "#password"</name>
+                            <title>I scroll to "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898658639' status='passed' stop='1701898659114'>
+                            <name>I fill field "#email", "Marlon.Collier@gmail.com"</name>
+                            <title>I fill field "#email", "Marlon.Collier@gmail.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898659115' status='passed' stop='1701898659323'>
+                            <name>I fill field "#password", *****</name>
+                            <title>I fill field "#password", *****</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898659324' status='passed' stop='1701898659329'>
+                            <name>I scroll page to bottom </name>
+                            <title>I scroll page to bottom </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701898659329' status='passed' stop='1701898659482'>
+                    <name>create_user_page: createUser </name>
+                    <title>create_user_page: createUser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701898659329' status='passed' stop='1701898659482'>
+                            <name>I click "#btnRegister"</name>
+                            <title>I click "#btnRegister"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701898659482' status='passed' stop='1701898659748'>
+                    <name>my_account_page: validateUserLogged "Trevor", "Borer"</name>
+                    <title>my_account_page: validateUserLogged "Trevor", "Borer"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701898659482' status='passed' stop='1701898659743'>
+                            <name>I wait for element "#userLogged"</name>
+                            <title>I wait for element "#userLogged"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701898659744' status='passed' stop='1701898659748'>
+                            <name>I see "Trevor Borer"</name>
+                            <title>I see "Trevor Borer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

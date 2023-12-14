@@ -1,0 +1,193 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-06T20:36:37.830Z",
+    "end": "2023-12-06T20:36:51.131Z",
+    "duration": 13301,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f76196cb-9b68-44e5-80c9-a8f22195454d",
+      "title": "",
+      "fullFile": "/Users/stefanini/Documents/projetos/Estudos/udemy-codeceptjs-web/steps/create_user_test.js",
+      "file": "/steps/create_user_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+          "title": "Create User",
+          "fullFile": "/Users/stefanini/Documents/projetos/Estudos/udemy-codeceptjs-web/steps/create_user_test.js",
+          "file": "/steps/create_user_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Create User\"",
+              "fullTitle": "Create User \"before all\" hook: codeceptjs.beforeSuite in \"Create User\"",
+              "timedOut": false,
+              "duration": 3070,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "7d0ad395-542d-485a-8638-8dd70e88db5a",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Create User\"",
+              "fullTitle": "Create User \"before each\" hook: codeceptjs.before in \"Create User\"",
+              "timedOut": false,
+              "duration": 315,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "7bbf47aa-e4ac-4f13-a67a-56fd674b457c",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Create User\"",
+              "fullTitle": "Create User \"after all\" hook: codeceptjs.afterSuite in \"Create User\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "0fa3bb95-4ac7-44d2-b822-c9c4abedd4fa",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Create User\"",
+              "fullTitle": "Create User \"after each\" hook: finalize codeceptjs in \"Create User\"",
+              "timedOut": false,
+              "duration": 37,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "f6544e75-f024-4c8b-a48e-1a50dfa23956",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login with sucess",
+              "fullTitle": "Create User: Login with sucess",
+              "timedOut": false,
+              "duration": 4987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login}) => {\n    await login('user')",
+              "err": {},
+              "uuid": "d0746322-7224-4c69-8518-414933a18248",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create a New User",
+              "fullTitle": "Create User: Create a New User",
+              "timedOut": false,
+              "duration": 3327,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var name = faker.person.firstName();\n\tvar lastName = faker.person.lastName();\n    \n\tconsole.log(`${name} ${lastName}`)\n    \n\tI.amOnPage('/')\n\t// home\n\thome_page.accessLoginPage()\n\t// create user\n\tcreate_user_page.fillFieldsCreateUser(`${name} ${lastName}`, faker.internet.email(), secret('123456') );\n\tcreate_user_page.createUser();\n    // my_account\n    my_account_page.validateUserLogged(name, lastName)",
+              "err": {},
+              "uuid": "388d69b1-a11a-4659-9279-4dabf175d09f",
+              "parentUUID": "87f4022d-fa04-4fea-92a2-ad0326497d20",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d0746322-7224-4c69-8518-414933a18248",
+            "388d69b1-a11a-4659-9279-4dabf175d09f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8314,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
