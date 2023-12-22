@@ -15,7 +15,7 @@ const server = require('./server/server.js')
 
 exports.config = {
   name: 'udemy-codeceptjs-web',
-  tests: './steps/login_test.js',
+  tests: './steps/upload_test.js',
   output: './output',
   helpers: {
     //WebDriver: {
